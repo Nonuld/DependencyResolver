@@ -11,6 +11,8 @@ final public class DependencyResolver {
     /// Returns the shared container.
     public static var root = DependencyResolver()
 
+    public init() {}
+
     private var dependencies = [String: Module]()
     private var instances = [String: Any]()
 
