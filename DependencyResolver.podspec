@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name          = 'DependencyResolver'
-    spec.version       = '0.1.0'
+    spec.version       = '0.1.1'
     spec.license       = { :type => 'MIT', :file => 'LICENSE' }
     spec.homepage      = 'https://github.com/Nonuld/DependencyResolver'
     spec.authors       = { 'Arnaud Le Bourblanc' => '' }
